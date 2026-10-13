@@ -8,8 +8,6 @@ class Menu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController nombreController = TextEditingController();
-    TextEditingController carreraController = TextEditingController();
     return Column(
       children: [
         ElevatedButton(onPressed: null, child: Text('StateFul Contador')),
